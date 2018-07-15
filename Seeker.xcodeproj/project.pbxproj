@@ -16,6 +16,7 @@
 		0011E6AC20F19359005007E7 /* SeekerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0011E6AB20F19359005007E7 /* SeekerUITests.swift */; };
 		0011E6BA20F1953D005007E7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0011E6B920F1953D005007E7 /* Constants.swift */; };
 		0011E6BC20F19580005007E7 /* GCDBlackBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0011E6BB20F19580005007E7 /* GCDBlackBox.swift */; };
+		004BE8D620F99AC50001C506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004BE8D520F99AC50001C506 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0011E6AD20F19359005007E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0011E6B920F1953D005007E7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0011E6BB20F19580005007E7 /* GCDBlackBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDBlackBox.swift; sourceTree = "<group>"; };
+		004BE8D520F99AC50001C506 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				0011E6BB20F19580005007E7 /* GCDBlackBox.swift */,
 				0011E69220F19359005007E7 /* Assets.xcassets */,
 				0011E69420F19359005007E7 /* LaunchScreen.storyboard */,
+				004BE8D520F99AC50001C506 /* Main.storyboard */,
 				0011E69720F19359005007E7 /* Info.plist */,
 			);
 			path = Seeker;
@@ -241,6 +244,7 @@
 				0011E69620F19359005007E7 /* LaunchScreen.storyboard in Resources */,
 				0011E69320F19359005007E7 /* Assets.xcassets in Resources */,
 				0011E69120F19359005007E7 /* Main.storyboard in Resources */,
+				004BE8D620F99AC50001C506 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +519,7 @@
 				0011E6B220F19359005007E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0011E6B320F19359005007E7 /* Build configuration list for PBXNativeTarget "SeekerTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				0011E6B520F19359005007E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0011E6B620F19359005007E7 /* Build configuration list for PBXNativeTarget "SeekerUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +537,7 @@
 				0011E6B820F19359005007E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
